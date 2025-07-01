@@ -222,18 +222,19 @@ a {
 }
 
 .btn--accent:hover {
-  background: #ec3000;
+    background: #ec3000;
 }
 
 .btn--block {
-  width: 100%;
-  display: inline-block;
+    width: 100%;
+    display: inline-block;
 }
 
 .btn--outline {
-  background: #fff;
-  color: var(--color-headings);
-  border: 2px solid --color-headings;
+    background: #fff;
+    color: var(--color-headings);
+    border: 2px solid --color-headings;
+    transition: background 0.5s;
 }
 
 .btn--outline:hover {
