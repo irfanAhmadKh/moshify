@@ -13,35 +13,24 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- 27 - Blocks -->
-    <section class="block container">
-      <header class="block__header">
-        <h2 class="block__heading">Heading H2</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Reprehenderit, dicta.
-        </p>
-      </header>
-      <div style="width: 30%; padding: 4rem">
-        <div class="card card--secondary">
-          <header class="card__header">Card Title</header>
-          <div class="card__body">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-              laudantium reiciendis repudiandae autem at iste?
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="block block--dark block--skewed-left">
-      <div class="container">
-        <h2 class="block__heading">Heading H2</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit,
-          dicta.
-        </p>
-      </div>
-    </section>
+    <!-- 28 - Navigation Bar -->
+    <header>
+      <nav class="nav collapsible">
+        <a href="/" class="nav__brand">
+          <img src="/images/logo.svg" alt="" />
+        </a>
+        <!-- Icons  -->
+        <svg class="icon icon--white nav__toggler">
+          <use xlink:href="images/sprite.svg#menu"></use>
+        </svg>
+        <!-- List -->
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="#">Hosting</a></li>
+          <li class="nav__item"><a href="#">VPS</a></li>
+          <li class="nav__item"><a href="#">Domain</a></li>
+          <li class="nav__item"><a href="#">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
   </body>
 </html>
